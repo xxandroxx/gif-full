@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.8rem;
+}
+
+
+
+
+.contenedor-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(58, 58, 58);
+}
+
+.contenido-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  
+}
+
+.contenido-nav a{
+    text-decoration: none;
+    color: #ccc;
+    text-transform: uppercase;
+    padding: 3rem;
+}
+
+
+.contenido-input-search{
+    margin-right: 10rem;
+}
+
+.contenido-input-search input{
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
